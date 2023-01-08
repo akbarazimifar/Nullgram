@@ -7,7 +7,7 @@ plugins {
     id("org.jetbrains.kotlin.android")
     id("com.google.gms.google-services")
     id("com.github.triplet.play") version "3.7.0"
-    kotlin("plugin.serialization") version Version.kotlin
+    kotlin("plugin.serialization") version 1.8.0
 }
 
 configurations {
